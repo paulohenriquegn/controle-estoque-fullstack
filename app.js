@@ -1,18 +1,12 @@
+const express = require('express');
+const app = express(); // ← Esta linha é ESSENCIAL!
+
+// Rotas devem vir DEPOIS desta definição
 app.get('/', (req, res) => {
-  res.send(`
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <title>Sistema de Estoque</title>
-        <style>
-          body { background-color: #f0f0f0; font-family: Arial; text-align: center; padding: 50px; }
-          h1 { color: #2c3e50; }
-        </style>
-      </head>
-      <body>
-        <h1>📦 Bem-vindo ao Sistema de Estoque!</h1>
-        <p>Use <strong>/api/produtos</strong> ou <strong>/api/fornecedores</strong> para acessar os endpoints.</p>
-      </body>
-    </html>
-  `);
+  res.send('Sistema de Estoque Funcionando!');
+});
+
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
 });
