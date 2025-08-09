@@ -1,6 +1,8 @@
-# 📦 Sistema de Controle de Estoque
+FACULDADE GRAN (https://faculdade.grancursosonline.com.br/)
 
-Projeto desenvolvido para a disciplina [Nome da Disciplina] da Faculdade Gran.
+Projeto Disciplina Projeto Integrador
+
+# 📦 Sistema de Controle de Estoque
 
 ## 🛠️ Tecnologias
 - **Backend**: Node.js, Express, MongoDB
